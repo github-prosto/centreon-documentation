@@ -633,12 +633,15 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 ```bash
 /usr/lib/centreon/plugins//centreon_linux_snmp.pl \
 	--plugin=os::linux::snmp::plugin \
-	--mode=uptime \
+	--mode=time \
 	--hostname=10.0.0.1 \
 	--snmp-version='2c' \
 	--snmp-community='my-snmp-community'  \
-	--warning-uptime='' \
-	--critical-uptime='' \
+	--ntp-hostname='' \
+	--ntp-port='' \
+	--warning-offset='-1:1' \
+	--critical-offset='-2:2' \
+	--timezone='' \
 	
 ```
 
@@ -646,6 +649,7 @@ La commande devrait retourner un message de sortie similaire à :
 
 ```bash
 OK:  | 'system.uptime.seconds'=58s;;;0; 
+
 ```
 
 ### Diagnostic des erreurs communes
@@ -1092,6 +1096,6 @@ affichée en ajoutant le paramètre `--help` à la commande :
 ```bash
 /usr/lib/centreon/plugins//centreon_linux_snmp.pl \
 	--plugin=os::linux::snmp::plugin \
-	--mode=uptime \
+	--mode=time \
 	--help
 ```

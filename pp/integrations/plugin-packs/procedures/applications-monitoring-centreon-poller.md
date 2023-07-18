@@ -309,14 +309,14 @@ is able to monitor a server using a command like this one (replace the sample va
 	--hostname=10.0.0.1 \
 	--snmp-version='2c' \
 	--snmp-community='my-snmp-community'  \
-	--process-name='sshd' \
-	--process-path='' \
+	--process-name='centengine' \
+	--process-path='/usr/sbin/' \
 	--process-args='' \
 	--regexp-name \
 	--regexp-path \
 	--regexp-args \
 	--warning='' \
-	--critical='' \
+	--critical='1:1' \
 	
 ```
 
@@ -324,6 +324,7 @@ The expected command output is shown below:
 
 ```bash
 OK:     | 
+
 ```
 
 ### Troubleshooting

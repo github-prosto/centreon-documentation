@@ -278,8 +278,7 @@ is able to monitor a server using a command like this one (replace the sample va
 	--mode=hardware-device \
 	--hostname=10.0.0.1 \
 	--snmp-community='my-snmp-community' \
-	--snmp-version='2c'  \
-	--verbose\
+	--snmp-version='2c' \
 	
 ```
 
@@ -287,6 +286,7 @@ The expected command output is shown below:
 
 ```bash
 OK: | 
+
 ```
 
 ### Troubleshooting

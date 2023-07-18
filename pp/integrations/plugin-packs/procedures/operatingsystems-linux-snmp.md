@@ -630,12 +630,15 @@ is able to monitor a server using a command like this one (replace the sample va
 ```bash
 /usr/lib/centreon/plugins//centreon_linux_snmp.pl \
 	--plugin=os::linux::snmp::plugin \
-	--mode=uptime \
+	--mode=time \
 	--hostname=10.0.0.1 \
 	--snmp-version='2c' \
 	--snmp-community='my-snmp-community'  \
-	--warning-uptime='' \
-	--critical-uptime='' \
+	--ntp-hostname='' \
+	--ntp-port='' \
+	--warning-offset='-1:1' \
+	--critical-offset='-2:2' \
+	--timezone='' \
 	
 ```
 
@@ -643,6 +646,7 @@ The expected command output is shown below:
 
 ```bash
 OK:  | 'system.uptime.seconds'=58s;;;0; 
+
 ```
 
 ### Troubleshooting
@@ -1089,6 +1093,6 @@ All available options for a given mode can be displayed by adding the
 ```bash
 /usr/lib/centreon/plugins//centreon_linux_snmp.pl \
 	--plugin=os::linux::snmp::plugin \
-	--mode=uptime \
+	--mode=time \
 	--help
 ```

@@ -762,6 +762,7 @@ La commande devrait retourner un message de sortie similaire à :
 
 ```bash
 OK:     | 'calls.active.1m.average.count'=85;;;0; 'calls.active.5m.average.count'=47;;;0; 'calls.active.15m.average.count'=40;;;0; 'connection.calls.active.count'=13;;;0; 
+
 ```
 
 ### Diagnostic des erreurs communes

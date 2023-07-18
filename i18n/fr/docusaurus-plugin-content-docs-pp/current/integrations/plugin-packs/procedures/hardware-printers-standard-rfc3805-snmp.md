@@ -279,8 +279,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 	--mode=hardware-device \
 	--hostname=10.0.0.1 \
 	--snmp-community='my-snmp-community' \
-	--snmp-version='2c'  \
-	--verbose\
+	--snmp-version='2c' \
 	
 ```
 
@@ -288,6 +287,7 @@ La commande devrait retourner un message de sortie similaire à :
 
 ```bash
 OK: | 
+
 ```
 
 ### Diagnostic des erreurs communes

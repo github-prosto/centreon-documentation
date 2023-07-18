@@ -312,14 +312,14 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 	--hostname=10.0.0.1 \
 	--snmp-version='2c' \
 	--snmp-community='my-snmp-community'  \
-	--process-name='sshd' \
-	--process-path='' \
+	--process-name='centengine' \
+	--process-path='/usr/sbin/' \
 	--process-args='' \
 	--regexp-name \
 	--regexp-path \
 	--regexp-args \
 	--warning='' \
-	--critical='' \
+	--critical='1:1' \
 	
 ```
 
@@ -327,6 +327,7 @@ La commande devrait retourner un message de sortie similaire à :
 
 ```bash
 OK:     | 
+
 ```
 
 ### Diagnostic des erreurs communes

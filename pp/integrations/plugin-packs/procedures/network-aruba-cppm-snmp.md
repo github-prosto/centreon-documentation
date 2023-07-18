@@ -416,6 +416,7 @@ The expected command output is shown below:
 
 ```bash
 OK:        | 'tacacs.authentication.policy.evaluation.milliseconds'=8ms;;;0; 'tacacs.authentication.service.policy.evaluation.milliseconds'=26ms;;;0; 'tacacs.authentication.requests.authentication.time.milliseconds'=45ms;;;0; 'tacacs.authentication.requests.time.milliseconds'=52ms;;;0; 'tacacs.authentication.requests.count'=67;;;0; 'tacacs.authentication.requests.failed.count'=92;;;0; 'tacacs.authentication.requests.succeeded.count'=4;;;0; 
+
 ```
 
 ### Troubleshooting

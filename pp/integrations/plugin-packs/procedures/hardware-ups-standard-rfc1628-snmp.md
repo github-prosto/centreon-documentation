@@ -303,6 +303,7 @@ The expected command output is shown below:
 
 ```bash
 OK:  | 
+
 ```
 
 ### Troubleshooting

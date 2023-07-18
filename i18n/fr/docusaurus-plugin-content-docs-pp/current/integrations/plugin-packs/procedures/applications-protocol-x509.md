@@ -14,7 +14,7 @@ Le connecteur de supervision **X509 Certificat** apporte un modèle d'hôte :
 * **App-Protocol-X509-custom**
 
 Le connecteur apporte le modèle de service suivant
-(classés selon le modèle d'hôte auquel ils sont rattachés) :
+(classé selon le modèle d'hôte auquel il est rattaché) :
 
 <Tabs groupId="sync">
 <TabItem value="App-Protocol-X509-custom" label="App-Protocol-X509-custom">

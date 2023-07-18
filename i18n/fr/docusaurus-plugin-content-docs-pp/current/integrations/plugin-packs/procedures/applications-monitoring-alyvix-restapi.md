@@ -14,7 +14,7 @@ Le connecteur de supervision **Alyvix Server RestAPI** apporte un modèle d'hôt
 * **App-Monitoring-Alyvix-Restapi-custom**
 
 Le connecteur apporte le modèle de service suivant
-(classés selon le modèle d'hôte auquel ils sont rattachés) :
+(classé selon le modèle d'hôte auquel il est rattaché) :
 
 <Tabs groupId="sync">
 <TabItem value="App-Monitoring-Alyvix-Restapi-custom" label="App-Monitoring-Alyvix-Restapi-custom">

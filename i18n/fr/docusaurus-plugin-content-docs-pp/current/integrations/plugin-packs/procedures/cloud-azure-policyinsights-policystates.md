@@ -14,7 +14,7 @@ Le connecteur de supervision **Azure Policies States** apporte un modèle d'hôt
 * **Cloud-Azure-PolicyInsights-PolicyStates-custom**
 
 Le connecteur apporte le modèle de service suivant
-(classés selon le modèle d'hôte auquel ils sont rattachés) :
+(classé selon le modèle d'hôte auquel il est rattaché) :
 
 <Tabs groupId="sync">
 <TabItem value="Cloud-Azure-PolicyInsights-PolicyStates-custom" label="Cloud-Azure-PolicyInsights-PolicyStates-custom">

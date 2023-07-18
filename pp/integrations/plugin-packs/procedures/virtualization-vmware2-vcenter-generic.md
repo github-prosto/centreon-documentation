@@ -1444,7 +1444,7 @@ is able to monitor a server using a command like this one (replace the sample va
 The expected command output is shown below:
 
 ```bash
-OK:         | 'cluster.vsan.backend.read.usage.iops'=91iops;;;0; 'cluster.vsan.backend.write.usage.iops'=75iops;;;0; 'cluster.vsan.backend.congestions.count'=43;;;0; 'cluster.vsan.backend.outstanding.io.count'=70;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=84B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=96B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=5ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=76ms;;;0; 
+OK:         | 'cluster.vsan.backend.read.usage.iops'=39iops;;;0; 'cluster.vsan.backend.write.usage.iops'=72iops;;;0; 'cluster.vsan.backend.congestions.count'=65;;;0; 'cluster.vsan.backend.outstanding.io.count'=79;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=28B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=68B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=16ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=53ms;;;0; 
 ```
 
 ### Troubleshooting

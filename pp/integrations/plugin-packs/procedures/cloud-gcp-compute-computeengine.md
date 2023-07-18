@@ -295,7 +295,7 @@ is able to monitor a GCP Instance using a command like this one (replace the sam
 The expected command output is shown below:
 
 ```bash
-OK: received: %.2f sent: %.2f received packets: %.2f sent packets: %.2f | 'computeengine.network.received.volume.bytes'=24B;;;; 'computeengine.network.sent.volume.bytes'=38B;;;; 'computeengine.network.received.packets.count'=96packets;;;; 'computeengine.network.sent.packets.count'=62packets;;;; 
+OK: received: %.2f sent: %.2f received packets: %.2f sent packets: %.2f | 'computeengine.network.received.volume.bytes'=48B;;;; 'computeengine.network.sent.volume.bytes'=78B;;;; 'computeengine.network.received.packets.count'=91packets;;;; 'computeengine.network.sent.packets.count'=12packets;;;; 
 ```
 
 ### Troubleshooting
