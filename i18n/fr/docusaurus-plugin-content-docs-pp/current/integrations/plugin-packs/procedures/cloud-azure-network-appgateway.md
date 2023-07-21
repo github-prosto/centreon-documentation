@@ -544,7 +544,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK: Capacity Units consumed: 46 Compute Units consumed: 31 Estimated Billed Capacity Units: 50 Fixed Billable Capacity Units: 39 | 'appgateway.capacity.units.count'=46;;;0; 'appgateway.compute.units.count'=31;;;0; 'appgateway.billed.units.estimated.count'=50;;;0; 'appgateway.billable.units.fixed.count'=39;;;0; 
+OK: Capacity Units consumed: 57 Compute Units consumed: 29 Estimated Billed Capacity Units: 64 Fixed Billable Capacity Units: 82 | 'appgateway.capacity.units.count'=57;;;0; 'appgateway.compute.units.count'=29;;;0; 'appgateway.billed.units.estimated.count'=64;;;0; 'appgateway.billable.units.fixed.count'=82;;;0; 
 ```
 
 ### Diagnostic des erreurs communes

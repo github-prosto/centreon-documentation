@@ -559,7 +559,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK: Network In: 1 B Network Out: 78 B Network Packets In: 87 packets Network Packets Out: 39 packets | 'ec2.network.in.bytes'=1B;;;; 'ec2.network.out.bytes'=78B;;;; 'ec2.network.packets.in.count'=87packets;;;; 'ec2.network.packets.out.count'=39packets;;;; 
+OK: Network In: 28 B Network Out: 23 B Network Packets In: 71 packets Network Packets Out: 58 packets | 'ec2.network.in.bytes'=28B;;;; 'ec2.network.out.bytes'=23B;;;; 'ec2.network.packets.in.count'=71packets;;;; 'ec2.network.packets.out.count'=58packets;;;; 
 ```
 
 ### Diagnostic des erreurs communes

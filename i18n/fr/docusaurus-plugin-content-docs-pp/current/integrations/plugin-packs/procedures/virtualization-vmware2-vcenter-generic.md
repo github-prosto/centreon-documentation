@@ -1443,7 +1443,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK:         | 'cluster.vsan.backend.read.usage.iops'=84iops;;;0; 'cluster.vsan.backend.write.usage.iops'=90iops;;;0; 'cluster.vsan.backend.congestions.count'=60;;;0; 'cluster.vsan.backend.outstanding.io.count'=4;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=25B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=14B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=47ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=66ms;;;0; 
+OK:         | 'cluster.vsan.backend.read.usage.iops'=73iops;;;0; 'cluster.vsan.backend.write.usage.iops'=66iops;;;0; 'cluster.vsan.backend.congestions.count'=81;;;0; 'cluster.vsan.backend.outstanding.io.count'=9;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=31B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=69B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=39ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=47ms;;;0; 
 ```
 
 ### Diagnostic des erreurs communes

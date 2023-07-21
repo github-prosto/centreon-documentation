@@ -276,7 +276,7 @@ is able to monitor an AWS Instance using a command like this one (replace the sa
 The expected command output is shown below:
 
 ```bash
-OK: Duration: 50 ms Invocations: 41 Errors: 51 Dead Letter Errors: 91 Throttles: 76 Iterator Age: 15 ms | 'lambda.function.duration.milliseconds'=50ms;;;; 'lambda.function.invocations.count'=41;;;; 'lambda.function.errors.count'=51;;;; 'lambda.function.deadlettererrors.count'=91;;;; 'lambda.function.throttles.count'=76;;;; 'lambda.function.iteratorage.milliseconds'=15ms;;;; 
+OK: Duration: 28 ms Invocations: 65 Errors: 56 Dead Letter Errors: 57 Throttles: 43 Iterator Age: 82 ms | 'lambda.function.duration.milliseconds'=28ms;;;; 'lambda.function.invocations.count'=65;;;; 'lambda.function.errors.count'=56;;;; 'lambda.function.deadlettererrors.count'=57;;;; 'lambda.function.throttles.count'=43;;;; 'lambda.function.iteratorage.milliseconds'=82ms;;;; 
 ```
 
 ### Troubleshooting

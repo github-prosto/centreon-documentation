@@ -399,7 +399,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK: Network Out: 81 B Network In: 28 B | 'azvm.network.out.bytes'=81B;;;0; 'azvm.network.in.bytes'=28B;;;0; 
+OK: Network Out: 87 B Network In: 31 B | 'azvm.network.out.bytes'=87B;;;0; 'azvm.network.in.bytes'=31B;;;0; 
 ```
 
 ### Diagnostic des erreurs communes

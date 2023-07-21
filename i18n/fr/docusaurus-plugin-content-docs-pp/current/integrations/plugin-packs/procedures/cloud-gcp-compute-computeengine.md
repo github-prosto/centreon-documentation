@@ -296,7 +296,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK: received: %.2f sent: %.2f received packets: %.2f sent packets: %.2f | 'computeengine.network.received.volume.bytes'=63B;;;; 'computeengine.network.sent.volume.bytes'=47B;;;; 'computeengine.network.received.packets.count'=66packets;;;; 'computeengine.network.sent.packets.count'=58packets;;;; 
+OK: received: %.2f sent: %.2f received packets: %.2f sent packets: %.2f | 'computeengine.network.received.volume.bytes'=10B;;;; 'computeengine.network.sent.volume.bytes'=2B;;;; 'computeengine.network.received.packets.count'=35packets;;;; 'computeengine.network.sent.packets.count'=62packets;;;; 
 ```
 
 ### Diagnostic des erreurs communes
