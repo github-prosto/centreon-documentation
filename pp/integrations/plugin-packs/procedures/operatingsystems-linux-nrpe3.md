@@ -621,7 +621,7 @@ yum install centreon-nrpe3-plugin
 
 Once the plugin is installed, log into your Centreon poller's CLI using the
 **centreon-engine** user account (`su - centreon-engine`). Test that the connector 
-is able to monitor a server using a command like this one (replace the sample values by yours):
+is able to monitor a resource using a command like this one (replace the sample values by yours):
 
 ```bash
 /usr/lib64/nagios/plugins//check\_centreon\_nrpe3 -H 10.0.0.1 -p 5666 -t 5  -c check_centreon_plugins -a 'os::linux::local::plugin' 'uptime'  ' \

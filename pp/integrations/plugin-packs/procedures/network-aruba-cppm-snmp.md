@@ -45,6 +45,14 @@ The connector brings the following service templates (sorted by the host templat
 
 ### Discovery rules
 
+#### Host discovery
+
+| Rule name       | Description                                                                                                                                                                                                                             |
+|:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SNMP Agents     | Discover your resource devices through a SNMP subnet scan. You need to install the [Generic SNMP](./applications-protocol-snmp.md) to get the discovery rule and create a template mapper for the **Net-Aruba-Cppm-SNMP** host template |
+
+More information about discovering hosts automatically is available on the [dedicated page](/docs/monitoring/discovery/hosts-discovery).
+
 #### Service discovery
 
 | Rule name                          | Description                                                   |
@@ -384,7 +392,7 @@ yum install centreon-plugin-Network-Aruba-Cppm-Snmp
 
 Once the plugin is installed, log into your Centreon poller's CLI using the
 **centreon-engine** user account (`su - centreon-engine`). Test that the connector 
-is able to monitor a server using a command like this one (replace the sample values by yours):
+is able to monitor a resource using a command like this one (replace the sample values by yours):
 
 ```bash
 /usr/lib/centreon/plugins//centreon_aruba_cppm_snmp.pl \

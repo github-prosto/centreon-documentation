@@ -397,7 +397,7 @@ is able to monitor an Azure Instance using a command like this one (replace the 
 The expected command output is shown below:
 
 ```bash
-OK: Network Out: 46 B Network In: 71 B | 'azvm.network.out.bytes'=46B;;;0; 'azvm.network.in.bytes'=71B;;;0; 
+OK: Network Out: 81 B Network In: 28 B | 'azvm.network.out.bytes'=81B;;;0; 'azvm.network.in.bytes'=28B;;;0; 
 ```
 
 ### Troubleshooting

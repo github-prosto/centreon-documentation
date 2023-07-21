@@ -542,7 +542,7 @@ is able to monitor an Azure Instance using a command like this one (replace the 
 The expected command output is shown below:
 
 ```bash
-OK: Capacity Units consumed: 30 Compute Units consumed: 55 Estimated Billed Capacity Units: 35 Fixed Billable Capacity Units: 0 | 'appgateway.capacity.units.count'=30;;;0; 'appgateway.compute.units.count'=55;;;0; 'appgateway.billed.units.estimated.count'=35;;;0; 'appgateway.billable.units.fixed.count'=0;;;0; 
+OK: Capacity Units consumed: 46 Compute Units consumed: 31 Estimated Billed Capacity Units: 50 Fixed Billable Capacity Units: 39 | 'appgateway.capacity.units.count'=46;;;0; 'appgateway.compute.units.count'=31;;;0; 'appgateway.billed.units.estimated.count'=50;;;0; 'appgateway.billable.units.fixed.count'=39;;;0; 
 ```
 
 ### Troubleshooting

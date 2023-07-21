@@ -1410,7 +1410,7 @@ yum install centreon-plugin-Virtualization-Vmware2-Connector-Plugin
 
 Once the plugin is installed, log into your Centreon poller's CLI using the
 **centreon-engine** user account (`su - centreon-engine`). Test that the connector 
-is able to monitor a server using a command like this one (replace the sample values by yours):
+is able to monitor a resource using a command like this one (replace the sample values by yours):
 
 ```bash
 /usr/lib/centreon/plugins//centreon_vmware_connector_client.pl \
@@ -1444,7 +1444,7 @@ is able to monitor a server using a command like this one (replace the sample va
 The expected command output is shown below:
 
 ```bash
-OK:         | 'cluster.vsan.backend.read.usage.iops'=39iops;;;0; 'cluster.vsan.backend.write.usage.iops'=72iops;;;0; 'cluster.vsan.backend.congestions.count'=65;;;0; 'cluster.vsan.backend.outstanding.io.count'=79;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=28B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=68B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=16ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=53ms;;;0; 
+OK:         | 'cluster.vsan.backend.read.usage.iops'=84iops;;;0; 'cluster.vsan.backend.write.usage.iops'=90iops;;;0; 'cluster.vsan.backend.congestions.count'=60;;;0; 'cluster.vsan.backend.outstanding.io.count'=4;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=25B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=14B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=47ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=66ms;;;0; 
 ```
 
 ### Troubleshooting

@@ -558,7 +558,7 @@ is able to monitor an AWS Instance using a command like this one (replace the sa
 The expected command output is shown below:
 
 ```bash
-OK: Network In: 53 B Network Out: 14 B Network Packets In: 70 packets Network Packets Out: 80 packets | 'ec2.network.in.bytes'=53B;;;; 'ec2.network.out.bytes'=14B;;;; 'ec2.network.packets.in.count'=70packets;;;; 'ec2.network.packets.out.count'=80packets;;;; 
+OK: Network In: 1 B Network Out: 78 B Network Packets In: 87 packets Network Packets Out: 39 packets | 'ec2.network.in.bytes'=1B;;;; 'ec2.network.out.bytes'=78B;;;; 'ec2.network.packets.in.count'=87packets;;;; 'ec2.network.packets.out.count'=39packets;;;; 
 ```
 
 ### Troubleshooting

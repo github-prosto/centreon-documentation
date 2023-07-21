@@ -170,7 +170,7 @@ yum install centreon-plugin-Applications-Protocol-X509
 
 Once the plugin is installed, log into your Centreon poller's CLI using the
 **centreon-engine** user account (`su - centreon-engine`). Test that the connector 
-is able to monitor a server using a command like this one (replace the sample values by yours):
+is able to monitor a resource using a command like this one (replace the sample values by yours):
 
 ```bash
 /usr/lib/centreon/plugins//centreon_protocol_x509.pl \

@@ -1408,7 +1408,7 @@ yum install centreon-plugin-Virtualization-Vmware2-Connector-Plugin
 Une fois le plugin installé, vous pouvez tester celui-ci directement en ligne
 de commande depuis votre collecteur Centreon en vous connectant avec
 l'utilisateur **centreon-engine** (`su - centreon-engine`). Vous pouvez tester
-que le connecteur arrive bien à superviser un serveur en utilisant une commande
+que le connecteur arrive bien à superviser une ressource en utilisant une commande
 telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 
 ```bash
@@ -1443,7 +1443,7 @@ telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 La commande devrait retourner un message de sortie similaire à :
 
 ```bash
-OK:         | 'cluster.vsan.backend.read.usage.iops'=39iops;;;0; 'cluster.vsan.backend.write.usage.iops'=72iops;;;0; 'cluster.vsan.backend.congestions.count'=65;;;0; 'cluster.vsan.backend.outstanding.io.count'=79;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=28B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=68B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=16ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=53ms;;;0; 
+OK:         | 'cluster.vsan.backend.read.usage.iops'=84iops;;;0; 'cluster.vsan.backend.write.usage.iops'=90iops;;;0; 'cluster.vsan.backend.congestions.count'=60;;;0; 'cluster.vsan.backend.outstanding.io.count'=4;;;0; 'cluster.vsan.backend.throughput.read.bytespersecond'=25B/s;;;0; 'cluster.vsan.backend.throughput.write.bytespersecond'=14B/s;;;0; 'cluster.vsan.backend.latency.read.milliseconds'=47ms;;;0; 'cluster.vsan.backend.latency.write.milliseconds'=66ms;;;0; 
 ```
 
 ### Diagnostic des erreurs communes

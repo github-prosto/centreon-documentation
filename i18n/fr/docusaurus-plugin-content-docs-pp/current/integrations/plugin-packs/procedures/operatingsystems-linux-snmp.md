@@ -59,6 +59,14 @@ Le connecteur apporte les modèles de service suivants
 
 ### Règles de découverte
 
+#### Découverte d'hôtes
+
+| Nom de la règle | Description                                                                                                                                                  |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SNMP Agents     | Discover your resource devices through a SNMP subnet scan. You need to install the [Generic SNMP](./applications-protocol-snmp.md) to get the discovery rule |
+
+Rendez-vous sur la [documentation dédiée](/docs/monitoring/discovery/hosts-discovery) pour en savoir plus sur la découverte automatique d'hôtes.
+
 #### Découverte de service
 
 | Nom de la règle                  | Description                                                           |
@@ -627,7 +635,7 @@ yum install centreon-plugin-Operatingsystems-Linux-Snmp
 Une fois le plugin installé, vous pouvez tester celui-ci directement en ligne
 de commande depuis votre collecteur Centreon en vous connectant avec
 l'utilisateur **centreon-engine** (`su - centreon-engine`). Vous pouvez tester
-que le connecteur arrive bien à superviser un serveur en utilisant une commande
+que le connecteur arrive bien à superviser une ressource en utilisant une commande
 telle que celle-ci (remplacez les valeurs d'exemple par les vôtres) :
 
 ```bash
